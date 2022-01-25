@@ -3,9 +3,9 @@ from smtp_config import smtp_server, smtp_port, smtp_user, smtp_pwd
 from datetime import datetime
 
 From = "vikram.the.coder@outlook.com"
-To  = ["vikram@sequoiaat.com", ]
-Cc  = ["markiv.84@gmail.com", "vikram.the.coder@gmail.com", "vikram.the.coder@outlook.com"]
-Bcc  = ["markiv.1984@gmail.com",]
+To = ["vikram@sequoiaat.com", ]
+Cc = ["markiv.84@gmail.com", "vikram.the.coder@gmail.com", "vikram.the.coder@outlook.com"]
+Bcc = ["markiv.1984@gmail.com",]
 Subject = "Test mail"
 Msg = f"Testing message: {datetime.now()}"
 Attachements = ["sample.txt", "sample2.txt"]
